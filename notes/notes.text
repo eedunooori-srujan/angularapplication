@@ -1,0 +1,24 @@
+//  npm install -save bootstrap
+//  npm i bootstrap icons --Save
+
+//  npm i ngx-toastr --save --save@9.1.1
+
+//  npm i @angular/animations --Save
+
+
+//  angular -JSON
+
+//  "node_modules/bootstrap/dist/css/bootstrap.min.css",
+//  "node_modules/ngx-toastr/toastr.css"
+
+//  Styles.css
+
+// @import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+// @import "-bootstrap-icons/font/bootstap-icons.css";
+
+// @import "-ngx-toastr/toastr";
+
+
+
+

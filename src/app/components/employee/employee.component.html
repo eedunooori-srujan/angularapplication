@@ -1,0 +1,46 @@
+ 
+  
+  <!-- As a heading -->
+  <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid" styles=display:flex:flex-direction:row:justify-content:center:all
+><span class="navbar-brand mb-0 h1" styles="text-align:center;
+">Angular Crud operation</span>
+
+</div>    
+
+  </nav>
+<div style="text-align: center;">
+  <button type="button" class="btn btn-primary" (click)='navigate()'>Create</button>
+</div>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Middle Name</th>
+        <th scope="col">Last Name</th>
+
+        <th scope="col">Age</th>
+        <th scope="col">Actions</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of employeeArray">
+<!-- <td scope="row">{{item.id}}</td>
+
+<td>{{item.firstName}}</td>
+<td scope="row">{{item.middleName}}</td>
+
+<td scope="row">{{item.lastName}}</td>
+<td scope="row">{{item.age}}</td>
+
+<td> 
+
+    <button>Edit</button>
+    <button>Delete</button>
+</td> -->
+      </tr>
+    </tbody>
+  </table>
+  
